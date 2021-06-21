@@ -1,0 +1,45 @@
+body {
+  background: url("img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.counterup {
+  background: #121212;
+  padding: 70px 0;
+  background-attachment: fixed;
+}
+
+.counterup .color:nth-child(1) i {
+  color: #feb518;
+}
+
+.counterup .color:nth-child(2) i {
+  color: #16e51a;
+}
+
+.counterup .color:nth-child(3) i {
+  color: #db0a0a;
+}
+
+.counterup .color:nth-child(4) i {
+  color: #7f7f7f;
+}
+
+.counterup .counterup-items i {
+  font-size: 50px;
+}
+
+.counterup .counterup-items h2 {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.counterup .counterup-items p {
+  color: #fff;
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=main.css.map */

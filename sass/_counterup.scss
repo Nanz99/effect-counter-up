@@ -1,0 +1,48 @@
+body {
+    background: url('../img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.counterup {
+    background: #121212;
+    padding: 70px 0;
+    background-attachment: fixed;
+    .color{
+         &:nth-child(1) i {
+             color: #feb518;
+         }
+
+         &:nth-child(2) i {
+             color: #16e51a;
+         }
+
+         &:nth-child(3) i {
+             color: #db0a0a;
+         }
+
+         &:nth-child(4) i {
+             color: #7f7f7f;
+         }
+    }
+    .counterup-items{
+       
+        i {
+            font-size: 50px;
+              
+        }
+      
+        h2 {
+            margin-top: 20px;
+            color: #fff;
+            font-size: 40px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #fff;
+            letter-spacing: 1px;
+        }
+    }
+}
